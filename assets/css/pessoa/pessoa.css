@@ -43,3 +43,23 @@
     font-size: 1.25rem;
     text-transform: lowercase;
 }
+
+@media screen and (min-width: 0) {
+    .pessoas {
+        flex-direction: column;
+    }
+
+    .pessoa {
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .pessoas {
+        flex-direction: row;
+    }
+
+    .pessoa {
+        margin-bottom: 0;
+    }
+}
